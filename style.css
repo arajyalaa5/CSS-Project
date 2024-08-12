@@ -1,0 +1,790 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Modern Era";
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10px; 
+
+}
+
+a{
+    text-decoration: none;
+    margin:20px;
+}
+
+.color{
+    background-color: #f6eded;
+    /* background-image: url('https://media.istockphoto.com/id/155157194/photo/abstract-spring-background.jpg?s=1024x1024&w=is&k=20&c=JruzRKQiKktU1FkNeFLnes7019LDJOQGkb69ye5V-TA='); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url('https://static.vecteezy.com/system/resources/previews/027/937/570/non_2x/colorful-abstract-painted-background-oil-painting-on-canvas-fragment-of-artwork-abstract-painting-background-or-texture-ai-generated-free-photo.jpg'); */
+
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-take-the-kids-to-go-around-and-play-picture-image_1036387.jpg');
+}
+ 
+.middle-items{
+    flex: 1;
+   margin-left: 50px;
+}
+.item{
+   color: rgb(132, 126, 124);
+   font-weight: 600;
+}
+
+.tbh{
+    color:rgb(33, 30, 29);
+    font-weight:800;
+    font-size: 32px;
+    
+   }
+   
+   .login{
+       color:rgb(33, 30, 29); 
+       font-weight: 800;
+       padding:15px 30px;
+       border-radius: 8px;
+       text-align: center;
+   }
+   
+   .log-in{
+       background-color: #fff;
+   }
+   
+   .j-in{
+       background-color: rgb(255, 126, 62);
+   }
+
+.item:hover{
+    color:rgb(33, 30, 29)
+}
+
+.sidebar{
+    position: fixed;
+    top:0;
+    right:0;
+    height:100vh;
+    width:250px;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar a{
+    width:100%;
+    height: 100vh;
+}
+.menu-button{
+    display: none;
+    font-size: 26px;
+}
+
+.fa-xmark{
+    font-size: 26px;
+}
+
+@media(max-width:800px)
+{
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+
+
+
+/*header*/
+.container1{
+    display: flex;
+    margin:20px 80px;
+}
+
+.txt1{
+    color:rgb(33, 30, 29); 
+    font-weight: 900;
+    font-size: 70px;
+    letter-spacing:-0.48px ;
+    font-family: "Recoleta Black";
+    line-height: 1.0;
+    width:60%;
+}
+
+#stud,.txt7a{
+    font-family: "Guthen Bloots Personal Use Regular";
+}
+
+.helping{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Modern Era";
+   color:rgb(33, 30, 29);
+   margin: 40px 0px ;
+   line-height: 1.5;
+}
+
+.j-now{
+    background-color: rgb(255, 126, 62);
+    color:rgb(33, 30, 29); 
+    font-weight: 800;
+    padding:20px;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 20px;
+    width: 25%;
+    margin-top:15px ; 
+}
+
+@media(max-width:800px)
+{
+   .container1{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+   }
+   .txt1{
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 26px;
+   }
+
+   .helping{
+    font-size: 16px;
+   }
+
+   .j-now{
+    margin: 0 auto;
+    font-size: 16px;
+    width:40%;
+   }
+
+   .img1{
+    width:100%;
+    height:80vh;
+   }
+}
+
+
+/* section 1 */
+
+.container2{
+    margin:20px 80px;
+}
+
+.common-txt{
+    font-family: "Guthen Bloots Personal Use Regular";
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.im0{
+    height:50px;
+    width:50px;
+}
+
+.clg-names{
+    padding:20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.im1{
+    height: auto;
+    width:172px;
+    padding:40px;
+}
+
+@media(max-width:800px)
+{
+   .container2{
+    align-items: center;
+    text-align: center;
+    width:80%;
+    margin-bottom: 100px;
+   }
+
+   .im0{
+    display: none;
+   }
+
+   .im1{
+    width:140px;
+    padding:15px;
+   }
+}
+
+
+
+
+/*section 3*/
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 80px;
+    height: 100vh;
+    margin-right: 5px;
+
+}
+
+.txt2{
+    width:40%;
+}
+
+.ct{
+    font-family: "Recoleta Black";
+    padding-bottom: 20px;
+    font-size: 30px;   
+}
+
+.border{
+    border-left:1px solid black;
+    padding-left: 40px;
+}
+
+.cta{
+    font-size: 20px;
+    font-family: "Modern Era";
+    font-weight: 800;
+    letter-spacing: -0.48px;
+    margin-bottom: 20px;
+}
+.ctb,.ctc{
+    font-family: "Modern Era";
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 10px;
+    opacity:0.8 ;
+}
+
+.ctc{
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+@media(max-width:800px)
+{   
+    .container3{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .txt2{
+        width:80%;
+    }
+
+    .ct{
+        font-size: 22px;
+        margin-right: 0;
+    }
+
+    .cta{
+        font-size: 16px;
+    }
+    .common-txt{
+        text-align: center;
+    }
+
+} 
+
+
+
+/*section4 */
+
+.container4{
+    margin-top: 40px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.up{
+    font-family: "Modern Era";
+    font-size: 18px; 
+    padding-bottom: 5px; 
+    opacity: 0.5;
+    font-weight: 800;
+
+}
+
+.num{
+    font-family: "Recoleta Black";
+    padding-bottom: 5px;
+    font-size: 56px;
+}
+
+.time{
+    font-family: "Guthen Bloots Personal Use Regular";
+    font-size: 56px;
+}
+
+@media(max-width:800px)
+{   
+    .container4{
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin-top: 600px;
+     
+
+    }
+
+    .im2{
+        display: none;
+    }
+    .up{
+        font-size: 24px; 
+      
+    }
+    .num{
+        font-size: 22px;
+
+    }
+
+    .time{
+        font-size: 22px;
+    }
+
+}
+
+
+hr{
+     opacity: 0.2;
+    margin: 0 20px;
+}
+
+
+/*container5*/
+.container5{
+    display: flex;
+    justify-content: space-between;
+    margin-right:150px;
+    margin-top: 50px;
+}
+
+.container5-txt{
+    width:40%;
+
+}
+
+
+.a5{
+    font-family: "Guthen Bloots Personal Use Regular";
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.b5{
+    font-family: "Recoleta Black";
+    padding-bottom: 24px;
+    line-height: 30px;
+    font-size:34px;
+    border-left: 1px solid black;
+    padding-left: 40px;
+    line-height: 1.2;
+}
+
+.autor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stan{
+    font-family: "Modern Era";
+    font-size: 26px;
+    color: #b33535;
+    font-weight: 800;
+}
+
+
+.k{
+    border-left: 1px solid black;
+    padding-left: 20px;
+    font-weight: 800;
+}
+
+@media(max-width:800px)
+{   
+    .container5{
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+    .container5-txt{
+        text-align: center;
+        width:80%;
+    }
+    .b5{
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+} 
+
+
+
+/*/conatiner6*/
+
+
+.container6{
+    margin:80px 0;
+    background-color: rgb(255, 126, 62);
+    clip-path: polygon(0 0, 100% 9%, 100% 100%, 0% 100%);
+    height: 130vh;
+    margin-right:10px;
+} 
+
+
+
+.container6-a{
+    font-family: "Guthen Bloots Personal Use Regular";
+    font-size: 26px;
+    font-size: 26px;
+    padding-bottom: 10px;
+    padding-top:40px;
+    margin-left: 60px;
+    cursor: pointer;
+    width:80%;
+}
+
+.a7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+details{
+    width:480px;
+    border:1px solid black;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 20px;
+}
+summary{
+    list-style: none;
+    font-family: "Recoleta Black";
+    font-size: 32px;
+}
+
+.fa-plus{
+    padding:10px;
+    border-radius:30px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.sum{
+    font-family: "Modern Era";
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    opacity:0.8 ;
+}
+
+
+@media(max-width:800px)
+{   
+    .container6{
+       width:100%;
+    }
+   
+    .k12{
+        font-size: 22px;
+    }
+    .container6-img{
+        display: none;
+    }
+
+} 
+
+
+
+/*container7 */
+
+.container7{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    margin-left: 60px;
+    padding-bottom: 30px;
+    height: 100vh;
+
+}
+
+.container7-txt{
+    width:25%;
+}
+
+.txt7a{
+    padding-bottom: 20px;
+}
+
+.txt7b{
+    font-family: "Recoleta Black";
+    padding-bottom: 20px;
+    
+}
+
+.txt7c{
+    font-family: "Modern Era";
+    font-size: 18px;
+    opacity: 0.5;  
+}
+
+#vr{
+    border-left: 1px solid black;
+    padding-left:40px;
+}
+
+.container7-img{
+   border:60px  solid gold;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 540px;
+    
+}
+
+
+@media(max-width:800px)
+{   
+    .container7{
+        flex-direction: column;
+        margin-bottom: 400px;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .container7-txt{
+        width:80%;
+        font-size: 26px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+   
+} 
+
+
+.footer{
+    color:white;
+    margin:20px 80px;
+}
+
+
+.line1{
+    display:flex;
+    align-items: center;
+    line-height: 0.8;
+}
+
+.tb{
+    margin-top: 100px;
+}
+
+.Reinventing{
+   
+    margin-left: 120px;
+    margin-right: 10px;
+    font-family: "Guthen Bloots Personal Use Regular";
+    font-size: 46px;
+    padding-bottom: 10px;
+
+}
+
+.gen,.new{
+    font-size: 46px;
+    font-family: "Recoleta Black";
+    text-align: justify;
+    
+}
+
+.new{
+    margin-left: 120px;
+}
+
+.line2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding-bottom: 100px;
+    height: 80vh;
+
+}
+
+.pro1,.pro2,.pro3{
+    font-family: "Recoleta Black";
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.pro{
+     line-height: 28px;
+}
+
+.soon{
+    opacity: 0.5;
+}
+
+.company{
+    border-left: 1px solid white;
+    padding-left:80px;    
+}
+
+.follow-us{
+    border-left: 1px solid white;
+    padding-left: 80px;
+}
+
+.line3{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+}
+
+.f1,.f2{
+    width:45%;
+    
+}
+
+.f1a{
+    border-top: 1px solid white;
+    padding: 20px 0px;
+    
+   
+}
+
+
+.f2a{
+    border-top: 1px solid white;
+    padding: 20px 0px;
+
+}
+
+.smile{
+    display: flex;
+    gap:80px;
+    line-height: 26px;
+ 
+}
+
+.f2b{
+    display: flex;
+    gap:80px;
+}
+
+.line4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    opacity: 0.5;
+}
+
+.line4a{
+    margin-bottom: 80px;
+}
+ 
+#footer-clip{
+    
+    background-color: black;
+    clip-path: polygon(0 12%, 30% 0, 100% 3%, 100% 100%, 0 100%);
+}
+
+i{
+    margin-right:10px;
+}
+.fa-check{
+    color: rgb(255, 126, 62);
+    
+}
+
+@media(max-width:800px)
+{
+    .Reinventing, .gen, .new{
+        font-size: 26px;
+    }
+
+    .pro1, .pro2, .pro3{
+        font-size: 18px;
+    }
+
+
+}
+
+
+
+
+/*Animations*/
+
+/*contaner2*/
+
+.ima{
+    animation: fadeInOut  4s infinite;
+}
+
+.imb{
+    animation: fadeInOut  8s infinite;
+}
+
+.imc{
+    animation: fadeInOut  12s infinite;
+}
+
+.imd{
+    animation: fadeInOut  16s infinite;
+}
+
+.ime{
+    animation: fadeInOut  20s infinite;
+}
+
+.imf{
+    animation: fadeInOut  24s infinite;
+}
+
+
+
+@keyframes fadeInOut{
+    0%{
+        opacity:1; /* visible at the start */
+    }
+
+    25%{
+        opacity:0; /* Fully hidden */
+    }
+
+    50%{
+        opacity:1;/*visible again */
+    }
+}
+
+
+
+
+
+
+
+
